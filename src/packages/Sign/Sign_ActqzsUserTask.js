@@ -1,5 +1,5 @@
 async function initPkg_Sign_ActqzsUserTask() {
-  const rids = ["5189167", "290935", "6979222", "5132174", "63136"];
+  const rids = ["8777", "71415", "3520070", "5508997", "9999"];
   let activityId = await getActivityId(dateFormat("yyyyMM", new Date()));
   if (!activityId) {
     const currentDate = new Date();
